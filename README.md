@@ -8,7 +8,7 @@ Download the latest version from the [Releases page](../../releases/latest).
 
 - Shows the galaxy map of a save, drawn with the game's own graphics.
 - **Planets:** edit any planet, including the computer players' planets: owner, population, factories, missile bases, environment, size, special, shields, spending, position and more.
-- **Fleets:** change the ships in any fleet in orbit or in flight, add a fleet at any planet, redirect or delete a fleet in flight, and change how many are aboard a transport.
+- **Fleets:** change the ships in any fleet in orbit or in flight, add a fleet at any planet, redirect or delete a fleet in flight, and change a transport's destination and how many are aboard. A fleet's or transport's course is drawn on the map with an arrow.
 - **Ship designs:** add, edit and remove any empire's ship designs, with any component, whatever the empire has researched. Cost, space, speed and hit points are worked out the way the game does.
 - **Technology:** give or take any technology for any empire, choose what it can research, and change its research in progress. Technology names are read from your own game files.
 - Undo and redo for every change.
