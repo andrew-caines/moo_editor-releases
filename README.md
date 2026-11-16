@@ -6,12 +6,13 @@ Download the latest version from the [Releases page](../../releases/latest).
 
 ## What it does
 
-- Shows the galaxy map of a save, drawn with the game's own graphics, in a screen and windows dressed like the game's own, with the game's own lettering. The map is alive: stars twinkle, nebulae pulse, and a star field drifts behind it all.
+- Shows the galaxy map of a save, drawn with the game's own graphics, in a screen and windows dressed like the game's own, with pixel lettering to match. The map is alive: stars twinkle, nebulae pulse, and a star field drifts behind it all.
 - **Planets:** edit any planet, including the computer players' planets: owner, population, factories, missile bases, environment, size, special, shields, spending, position and more.
 - **Fleets:** change the ships in any fleet in orbit or in flight, add a fleet at any planet, redirect or delete a fleet in flight, and change a transport's destination and how many are aboard. A fleet's or transport's course is drawn on the map with an arrow.
 - **Ship designs:** add, edit and remove any empire's ship designs, with any component, whatever the empire has researched. Cost, space, speed and hit points are worked out the way the game does.
-- **Empires:** each empire's tab opens with its race's portrait and a summary: home world, planets, population, factories, ships, reserve and tech levels.
+- **Empires:** each empire's tab opens with its race's portrait and a summary: home world, planets, population, factories, ships, reserve and tech levels. The reserve can be changed.
 - **Technology:** give or take any technology for any empire, choose what it can research, and change its research in progress. Technology names are read from your own game files.
+- **Diplomacy:** set the treaty, relations and trade between any two empires, whether the player has met an empire, and each empire's trust and readiness to deal. War ends trade, as in the game.
 - Undo and redo for every change.
 
 The editor only allows changes the game can load: every edit is checked against the game's own limits, and an edit that would break the save is refused with the reason.
@@ -46,7 +47,7 @@ If the folder dialog cannot be shown on your system, give the game folder on the
 1. Start the editor.
 2. The first time, choose **File > Set game folder...** and pick the folder Master of Orion is installed in.
 3. Choose **File > Open...** and pick a save (`SAVE1.GAM` to `SAVE6.GAM` in the game folder).
-4. Click a star to see its planet; double-click it to edit. Double-click a fleet or transport marker to edit it. Pick an empire from the **Empires** menu for its ship designs and technology; the window that opens has a tab for every empire.
+4. Click a star to see its planet; double-click it to edit. Double-click a fleet or transport marker to edit it. Pick an empire from the **Empires** menu for its ship designs, technology and diplomacy; the window that opens has a tab for every empire.
 5. **File > Save** writes the save. Load it in the game as usual.
 
 Every time you save, the editor first keeps a timestamped backup copy of the save next to it, so a change can always be taken back.
