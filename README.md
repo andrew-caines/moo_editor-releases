@@ -6,10 +6,11 @@ Download the latest version from the [Releases page](../../releases/latest).
 
 ## What it does
 
-- Shows the galaxy map of a save, drawn with the game's own graphics.
+- Shows the galaxy map of a save, drawn with the game's own graphics, in a screen and windows dressed like the game's own. The map is alive: stars twinkle, nebulae pulse, and a star field drifts behind it all.
 - **Planets:** edit any planet, including the computer players' planets: owner, population, factories, missile bases, environment, size, special, shields, spending, position and more.
 - **Fleets:** change the ships in any fleet in orbit or in flight, add a fleet at any planet, redirect or delete a fleet in flight, and change a transport's destination and how many are aboard. A fleet's or transport's course is drawn on the map with an arrow.
 - **Ship designs:** add, edit and remove any empire's ship designs, with any component, whatever the empire has researched. Cost, space, speed and hit points are worked out the way the game does.
+- **Empires:** each empire's tab opens with its race's portrait and a summary: home world, planets, population, factories, ships, reserve and tech levels.
 - **Technology:** give or take any technology for any empire, choose what it can research, and change its research in progress. Technology names are read from your own game files.
 - Undo and redo for every change.
 
@@ -33,6 +34,12 @@ tar -xzf moo_editor-linux-x86_64.tar.gz
 ```
 
 There is nothing to install; the program is a single file. The game folder is the one holding the game's `.LBX` files, for example the game's folder inside a DOSBox or GOG install; the files' names can be upper or lower case. Settings are kept in `~/.config/moo_editor/`.
+
+If the folder dialog cannot be shown on your system, give the game folder on the command line once and it is remembered:
+
+```
+./moo_editor --game-dir /path/to/moo
+```
 
 ## How to use it
 
